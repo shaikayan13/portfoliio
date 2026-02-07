@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shaik Ayan - Full Stack Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Intro Animation Overlay -->
+  <div id="intro-overlay">
+    <div class="intro-bg"></div>
+    <h1 class="intro-headline">
+      <span>S</span><span>H</span><span>A</span><span>I</span><span>K</span>
+      <span style="margin-left:0.4em"></span>
+      <span>A</span><span>Y</span><span>A</span><span>N</span>
+    </h1>
+  </div>
+
+  <!-- Main Website -->
+  <div id="main-site" class="blurred-page">
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="logo">Shaik Ayan</div>
+        <ul class="nav-menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="hero-container">
+        <div class="hero-content">
+          <h2>Hello, I'm <span class="gradient-text">Shaik Ayan</span></h2>
+          <h3>Full Stack Developer</h3>
+          <p>Passionate about creating interactive web experiences with React, Node.js.</p>
+          <div class="social-links">
+            <a href="https://github.com/shaikayan13" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/_ayannn.13_" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="mailto:itsshaikayan@gmail.com"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-image fade-in">
+            <img src="ayannnnn.jpg" alt="Shaik Ayan">
+          </div>
+          <div class="about-text">
+            <p class="fade-in-up">Hello! I'm <strong>Shaik Ayan</strong>, a 4th-year Computer Science & Engineering student passionate about web development and creating interactive digital experiences.</p>
+            <p class="fade-in-up delay-1">I have experience working on projects like StudyBuddy AI, Todo App, Movie Finder, Chat App, and a Drone Detection System using Machine Learning and OpenCV.</p>
+            <p class="fade-in-up delay-2">I enjoy working with React.js, Node.js, HTML, CSS, JavaScript, and Python for AI and web apps, combining creativity, logic, and user-centered design.</p>
+            <div class="about-info">
+              <div class="info-item fade-in-up delay-3">
+                <i class="fas fa-envelope"></i>
+                <span>itsshaikayan@gmail.com</span>
+              </div>
+              <div class="info-item fade-in-up delay-4">
+                <i class="fas fa-calendar"></i>
+                <span>5 Feb, 2004</span>
+              </div>
+              <div class="info-item fade-in-up delay-5">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Bangalore, India</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume Section (UPDATED) -->
+    <section id="resume" class="resume-section">
+      <div class="container">
+        <h2 class="section-title">Resume</h2>
+        <div class="resume-content">
+          <p>View and download my resume to learn about my education, skills, projects, and certifications.</p>
+          <div class="resume-preview" style="margin-bottom:2rem;">
+            <iframe src="SHAIK AYAN - WEB DEVELOPER - Resume (2).pdf" width="100%" height="500px" style="border-radius: 15px; border: 2px solid #667eea; background: #181e3f;"></iframe>
+          </div>
+          <a href="resume.pdf" class="btn-download" download>
+            <i class="fas fa-download"></i> Download Resume
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+      <div class="container">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card"><i class="fab fa-react"></i><h4>React.js</h4></div>
+          <div class="skill-card"><i class="fab fa-node-js"></i><h4>Node.js</h4></div>
+          <div class="skill-card"><i class="fab fa-js"></i><h4>JavaScript</h4></div>
+          <div class="skill-card"><i class="fab fa-python"></i><h4>Python</h4></div>
+          <div class="skill-card"><i class="fab fa-html5"></i><h4>HTML5</h4></div>
+          <div class="skill-card"><i class="fab fa-css3-alt"></i><h4>CSS3</h4></div>
+          <div class="skill-card"><i class="fas fa-database"></i><h4>MongoDB</h4></div>
+          <div class="skill-card"><i class="fab fa-git-alt"></i><h4>Git</h4></div>
+          <div class="skill-card"><i class="fas fa-code"></i><h4>TypeScript</h4></div>
+          <div class="skill-card"><i class="fas fa-network-wired"></i><h4>Socket.io</h4></div>
+          <div class="skill-card"><i class="fas fa-server"></i><h4>Express.js</h4></div>
+          <div class="skill-card"><i class="fas fa-brain"></i><h4>AI/ML</h4></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+      <div class="container">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <h3>Todo App</h3>
+            <p>A React-based to-do list app for daily task management.</p>
+            <div class="project-links">
+              <a href="https://github.com/shaikayan13/todo-app" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+              <a href="https://todo-app-shaikayan.vercel.app/" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <h3>Movie Finder</h3>
+            <p>A React app to search movies using API.</p>
+            <div class="project-links">
+              <a href="https://github.com/shaikayan13/movie-finder" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+              <a href="https://movie-finder-shaikayan.vercel.app/" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <h3>Chat App</h3>
+            <p>Real-time chat with Node.js and Socket.io.</p>
+            <div class="project-links">
+              <a href="https://github.com/shaikayan13/chat-app" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+              <a href="https://chat-app-shaikayan.vercel.app/" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <h3>StudyBuddy AI</h3>
+            <p>An AI study assistant for students.</p>
+            <div class="project-links">
+              <a href="https://github.com/shaikayan13/study-buddy" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <h3>GenAI Project</h3>
+            <p>A generative AI project with JavaScript.</p>
+            <div class="project-links">
+              <a href="https://github.com/shaikayan13/GenAi-project" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-wrapper">
+          <div class="contact-form">
+            <form>
+              <input type="text" placeholder="Your Name" required>
+              <input type="email" placeholder="Your Email" required>
+              <textarea placeholder="Your Message" rows="5" required></textarea>
+              <button type="submit" class="btn-submit">Send Message</button>
+            </form>
+          </div>
+          <div class="contact-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248849.886539092!2d77.49085284374999!3d12.95396045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1234567890" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
